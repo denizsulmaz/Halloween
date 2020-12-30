@@ -1,0 +1,331 @@
+*{  box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+.ana{
+    background: url(img/bgg.png) no-repeat center;
+    background-color: rgb(108, 0, 180);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    width: 3%;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+}
+.font{
+    width: 100%;
+}
+.anafont h1,h4{
+    line-height: 200%;
+    color: white;
+}
+.anafont h1{
+    font-size: 35px;
+}
+.anafont{
+    width: 30%;
+    box-shadow: -4px 3px 4px rgb(87, 0, 87);
+    transition: 1.5s ease;
+    margin-left: 5%;
+    padding: 1%;
+}
+
+
+.second{
+    height: 100vh;
+    background-color: #000000;
+}
+
+
+.sec{
+    position: relative;
+    width: 42%;
+    left: 5%;
+    margin-top: 5%;
+}
+.second h1{
+    line-height: 350%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    padding-left: 40%;
+    margin-top: -35%;
+}
+.second h2{
+    text-align: left;
+    line-height: 300%;
+    padding-left: 40%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-left: 10%;
+}
+.row h3{
+    transition: 2.5s ease;
+    padding: 0.1px 15px;
+    background-color: rgba(69, 0, 87, 0.918);
+    font-size: 30px;
+    color: white;
+}
+.row li:hover{
+    transition: 0s ease;
+    color: rgba(160, 0, 160, 0.774);
+}
+.row li{
+    transition: 1.5s ease;
+    font-size: 23px;
+    color: white;
+    list-style: none;
+}
+.col{
+    transition: 2.5s ease;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    border-top: 0.5px solid rgba(255, 255, 255, 0.041);
+    background: rgb(0,0,0);
+    background: linear-gradient(190deg, rgba(0,0,0,1) 55%, rgba(43,43,43,1) 100%);
+    height: 30vh;
+}
+.bats{
+    padding-top: 4%;
+    float: right;
+    width: 15%;
+}
+.spider{
+    padding-top: 5px;
+    opacity: 0.5;
+    width: 7%;
+}
+
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    display: flex;
+    justify-content: center;
+  
+  align-items: center;
+  padding-top: 0px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 10px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa{
+    
+    font-size: 25px;
+}
+.fa-instagram {
+    padding:10px 30px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f3000;
+}
+.fa-instagram:hover {
+    background-color: #bc2a8d;
+}
+
+.fa-google {
+    padding:10px 30px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f3000;
+}
+.fa-google:hover {
+    background-color: #de5246;
+}
+.fa-linkedin {
+    padding:10px 30px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f3000;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #a19f9f;
+    text-decoration:  underline;
+}
+
+._12 {
+    font-size: 1.7em;
+}
+._14 {
+    font-size: 1.7em;
+}
+ul {
+margin-left: 6%;
+margin-right: auto;
+  align-items: center;
+    margin-top: -7%;
+    list-style: none;
+}
+.copyr{
+    padding-top: 10%;
+    padding-left: 3%;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+html {
+    --scrollbarBG: #000000;
+    --thumbBG: #280049;
+  }
+  body::-webkit-scrollbar {
+    width: 8px;
+  
+  }
+  body {
+    scrollbar-width:thick;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 1px solid var(--scrollbarBG);
+  }
+  @media only screen and (max-width:600px) {
+      .logo{
+          left: 15px;
+          width: 5%;
+          transition: 0 ease;
+      }
+      .font{
+          margin-top: 20%;
+          margin-bottom: 20%;
+        width: 150%;
+        margin-left: -23%;
+    }
+    .anafont h4{
+        font-size: 16px;
+        line-height: 200%;
+        color: white;
+    }
+    .anafont h1{
+        
+        padding-top: 1%;
+        line-height: 200%;
+        color: white;
+        font-size: 25px;
+    }
+    .anafont{
+        width: 90%;
+        box-shadow: -4px 3px 4px rgb(87, 0, 87);
+        transition: 1.5s ease;
+        margin-left: 5%;
+        padding: 1%;
+    }
+    .sec{
+        padding-left: 20px;
+        padding-right: 50px;
+        position: relative;
+        width: 100%;
+        margin-top: 1%;
+    }
+    .second h1{
+        line-height: 110%;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 30px;
+        padding-left: 0%;
+        margin-top: 1%;
+    }
+    .second h2{
+        text-align: left;
+        line-height: 300%;
+        padding-left: 0%;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 20px;
+    }
+    .row{margin-top: 2%;
+        margin-bottom: 3%;
+        display: flex;
+        flex-direction: row;
+        float: left;
+        margin-left: 3%;
+    }
+    .row h3{
+        transition: 2.5s ease;
+        padding: 0.1px 15px;
+        background-color: rgba(69, 0, 87, 0.918);
+        font-size: 20px;
+        color: white;
+    }
+    .row li:hover{
+        transition: 0s ease;
+        color: rgba(160, 0, 160, 0.774);
+    }
+    .row li{
+        transition: 1.5s ease;
+        font-size: 16px;
+        color: white;
+        list-style: none;
+    }
+    .col{
+        transition: 2.5s ease;
+        padding-left: 50px;
+        padding-right: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bats{
+        padding-top: 4%;
+        float: right;
+        width: 40%;
+    }
+    .spider{
+        padding-top: 5px;
+        opacity: 0.5;
+        width: 7%;
+    }
+    .copyr{
+        color: white;
+        padding-top: 22%;
+        padding-left: 3%;
+        font-weight: 600;
+        font-size: 15px;
+    }
+  }
